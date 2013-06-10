@@ -11,3 +11,10 @@ executable MineSweeper
   ghc-options:     -Wall
   other-modules:   MineSweeper
 
+library 
+  build-depends:   
+                   base >= 4,
+                   repa
+  hs-source-dirs:  src
+  ghc-options:     -Wall
+
